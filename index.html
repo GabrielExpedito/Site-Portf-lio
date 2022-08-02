@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:ital@1&display=swap"
+        rel="stylesheet">
+
+
+    <title>Portifólio</title>
+    <style>
+        body {
+            margin-left: 5%;
+            margin-right: 20%;
+        }
+
+        .container {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+        }
+
+        #header {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 29px;
+            text-align: center;
+
+            color: #020202;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        #menu {
+            text-align: right;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #menu li {
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 49px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 21px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #butttonCta {
+            background: #1F7CFF;
+            color: white;
+            border-radius: 80px;
+            font-family: Poppins;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            padding: 10px 25px 10px 25px;
+            margin-left: 170px;
+
+
+        }
+
+        #headerCta P {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #919191;
+
+        }
+
+        #headerCta h1 {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 30px;
+            text-align: center;
+
+        }
+
+        #headerCta h2 {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            margin-left: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            Portifólio
+
+
+        </div>
+        <div id="menu">
+            <ul>
+                <li> <a href="">About me</a></li>
+                <li> <a href="">Skills</a></li>
+                <li> <a href="">Portfolio</a></li>
+
+
+            </ul>
+
+        </div>
+
+
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h2>Hi, I am</h2>
+            <h1>Tomasz Gajda</h1>
+            <p> Front-end Developer / UI Designer</p>
+            <a id="butttonCta" href="">My Services</a>
+        </div>
+        <div id="headerImg">
+            <img src="/img/header.svg">
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
